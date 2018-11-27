@@ -1,54 +1,61 @@
-*{
-    background: #625554;
-}
 header{
-    background: #625554;
+    height: 80px;
+}
+body{
+    background-color: #625554;
+    background-image:url("img/oldbookcase.jpg");
+}
+.navbar{
+    border:none;
+    background-color: #625554;
 }
 .navbar-brand{
+    border:none;
 	padding:0px;
 }
-.navbar-brand img{
-    height: 20px;
-	width:46px;
+#logo{
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    height: 80px;
+    width: 80px;
 }
 nav{
     position:absolute;
     border: none;
     right:0px;
-    top:30px;
+    top:0px;
 }
 nav ul{
     list-style: none;
+    border: none;
 }
 nav li{
     display:inline-block;
     float:right;
+    border: none;
 }
 nav a{
-    background:black;
-    padding-top:50px;
-    text-decoration:none;
-    color:white;
+    background-color:#000000;
+    padding-top:10px;
+    color:#EEA237;
     border-radius:150px;
 }
-#logo{
-    display: inline-block;
-    float: left;
-    height: 90px;
-    width: 95px;
-}
 img{
-    background: url("img/oldbookcase.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
     height: 550px;
     width: 1400px;
 }
 .jumbotron{
     height: 300px;
     width: 1400px;
-    background: #AE623D;
+    background-color: #AE623D;
     color: #641500;
+}
+h1{
+    background: #AE623D;
+}
+#imgfeature{
+    border-radius: 170px;
 }
 footer{
     float: right;
