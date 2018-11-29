@@ -35,6 +35,11 @@ nav li{
     float:right;
     border: none;
 }
+.navbar-default .navbar-nav>li>a{
+    background-color: #000000;
+    color: #EEA237;
+    border-radius: 150px;
+}
 nav a{
     background-color:#000000;
     padding-top:10px;
@@ -46,16 +51,33 @@ img{
     width: 1400px;
 }
 .jumbotron{
-    height: 300px;
+    height: 400px;
     width: 1400px;
+    padding-bottom: 0px;
     background-color: #AE623D;
     color: #641500;
+}
+#herotext{
+    max-width: 600px;
+    background: #AE623D;
 }
 h1{
     background: #AE623D;
 }
+.btn-primary{
+    border: none;
+    background: #641500;
+    color: #AE623D;
+}
+.btn-primary:hover{
+    border: none;
+    background: #625554;
+    color: #641500;
+}
 #imgfeature{
     border-radius: 170px;
+    height: 350px;
+    width: 350px;
 }
 footer{
     float: right;

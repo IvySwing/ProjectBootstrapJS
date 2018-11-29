@@ -27,14 +27,19 @@
                 </div>
             </nav>
         </header>
-        <div>
             <img src="img/oldbookcase.jpg">
-                <div class="jumbotron">
-                    <div>
+            <div class="jumbotron">
+                <div id="herotext">
                         <h1>Help Pay For The Liquor License</h1>
                         <p>Get A Super Cool Octo-Hoodie</p>
                         <p><a class="btn btn-primary btn-lg" href="https://www.customink.com/fundraising/waystation?pc=TXN-167778&utm_campaign=fr_org_confirmation&utm_source=fr_organizer_txn&utm_medium=email&utm_content=campaign&fbclid=IwAR3H_ePc8NRMRda1X7NONszx4uJ_trr0EwDPEBJzpECdH4kZOCpgEF6W7IQ" role="button">Check It Out</a></p>
-                    </div>
+                        <p> <button id="goals">See Our Progress</button></p>
+        <div id="goalprogress">
+            <div class="progress">
+                <div class="progress-bar" id="bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">70%
+                </div>
+            </div>
+        </div>
                 </div>
         <div class="container">
                 <h2 class="text-center text-uppercase">What's Going On?</h2>
@@ -70,6 +75,12 @@
         </footer>
             <script src="js/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
-        <script></script>
+        <script>
+            document.getElementById("goals").onclick=function(){
+    document.getElementById("goalprogress").style.display="block";
+//            document.getElementById("bar").style.width = "70%";
+            $("#bar").width("70%");
+        };
+            </script>
     </body>
 </html>
