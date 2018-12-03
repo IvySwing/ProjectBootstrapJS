@@ -3,7 +3,6 @@ header{
 }
 body{
     background-color: #625554;
-    background-image:url("img/oldbookcase.jpg");
 }
 .navbar{
     border:none;
@@ -17,8 +16,8 @@ body{
     display: inline-block;
     box-sizing: border-box;
     float: left;
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 140px;
 }
 nav{
     position:absolute;
@@ -40,25 +39,18 @@ nav li{
     color: #EEA237;
     border-radius: 150px;
 }
-nav a{
-    background-color:#000000;
-    padding-top:10px;
-    color:#EEA237;
-    border-radius:150px;
-}
 img{
     height: 550px;
-    width: 1400px;
+    width: 100%;
 }
 .jumbotron{
-    height: 400px;
-    width: 1400px;
-    padding-bottom: 0px;
+    height: 318px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #AE623D;
     color: #641500;
 }
 #herotext{
-    max-width: 600px;
     background: #AE623D;
 }
 h1{
@@ -68,11 +60,25 @@ h1{
     border: none;
     background: #641500;
     color: #AE623D;
+    border-radius: 80px;
 }
 .btn-primary:hover{
     border: none;
     background: #625554;
     color: #641500;
+}
+#goals{
+    border: none;
+    background: #641500;
+    color: #AE623D;
+    font-size: 18px;
+    padding: 10px 16px;
+    line-height: 1.3333;
+    border-radius: 80px
+}
+#bar{
+    background: #641500;
+    color: #AE623D;
 }
 #imgfeature{
     border-radius: 170px;
